@@ -15,7 +15,7 @@ Here is the list of required libraries:
 - MCForecastTools
 - matplotlib
 
-![](import_1)
+![](./screen_caps/import_1.png)
  
 ---
 ## Installation Guide
@@ -25,7 +25,7 @@ This program requires a .env file that contains both an Alpaca API key and a sec
 ## Usage
 In the first step we set the amount of BTC and ETH owned in the portfolio.
 
-![](./screen_caps/step_1)
+![](./screen_caps/step_1.png)
 
 Next we find the current value of each cryptocurrency by selecting it through their individual response dataset from the API call.
 
