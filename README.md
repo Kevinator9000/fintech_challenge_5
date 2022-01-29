@@ -15,7 +15,7 @@ Here is the list of required libraries:
 - MCForecastTools
 - matplotlib
 
-![](/screen_caps/import_1.png)
+![](./screen_caps/import_1.PNG)
  
 ---
 ## Installation Guide
@@ -25,83 +25,83 @@ This program requires a .env file that contains both an Alpaca API key and a sec
 ## Usage
 In the first step we set the amount of BTC and ETH owned in the portfolio.
 
-![](screen_caps/step_1.png)
+![](./screen_caps/step_1.PNG)
 
 Next we find the current value of each cryptocurrency by selecting it through their individual response dataset from the API call.
 
-![](screen_caps/step_2.png)
+![](./screen_caps/step_2.PNG)
 
 We then use the current price data with the total amount of BTC and ETH in the portfolio to determine the total value of cryptocurrency in the portfolio.
 
-![](screen_caps/step_3.png)
+![](./screen_caps/step_3.PNG)
 
 The program now allows the input of the total SPY and AGG shares held in the portfolio.
 
-![](screen_caps/step_4.png)
+![](./screen_caps/step_4.PNG)
 
 For the next step we have the option to set the start and end date to any timeframe you choose to focus on. 
 
-![](screen_caps/step_5.png)
+![](./screen_caps/step_5.PNG)
 
 We utilize Alpaca to turn the API data into a dataframe which displays the open, high, low, close, and volume of both AGG and SPY over the specified start and end date.
 
-![](screen_caps/step_6.png)
+![](./screen_caps/step_6.PNG)
 
 The program now uses the total amount of stocks and bonds held in the portfolio with the current value of AGG and SPY to determine the total current value of stocks and bonds held in the portfolio.
 
-![](screen_caps/step_7.png)
+![](./screen_caps/step_7.PNG)
 
 Next the total current value of the portfolio is determined by adding the total current value of stocks and bonds with the total current value of cryptocurrency held in the portfolio.
 
-![](screen_caps/step_8.png)
+![](./screen_caps/step_8.PNG)
 
 We then use a pie chart to visualize the portfolio weight for crypto vs. stocks/bonds.
 
-![](screen_caps/step_9.png)
+![](./screen_caps/step_9.PNG)
 
 Now we have the option to set the emergency fund value appropriately, by default it is set to 3 * monthly income.
 
-![](screen_caps/step_10.png)
+![](./screen_caps/step_10.PNG)
 
 The program now uses the total portfolio value and the emergency fund value to determine if you have reached your emergency fund goal.
 
-![](screen_caps/step_11.png)
+![](./screen_caps/step_11.PNG)
 
 Here is an opportunity to set the start and end dates for the historical closing prices data that we will be using to create our 30 and 10 year Monte Carlo simulations.
 
-![](screen_caps/step_12.png)
+![](./screen_caps/step_12.PNG)
 
 After the 500 Monte Carlo simulations run the program then visualizes the 30 year simulation data as a line plot.
 
-![](screen_caps/step_13.png)
+![](./screen_caps/step_13.PNG)
 
 Now the program uses the exact same data but visualizes it as a histogram in order to display the distribution.
 
-![](screen_caps/step_14.png)
+![](./screen_caps/step_14.PNG)
 
 The program now provides a summary of the 30 year Monte Carlo simulation data.
 
-![](screen_caps/step_15.png)
+![](./screen_caps/step_15.PNG)
 
 Here the program utilizes the summary to multiply the 95% upper and lower CI by the total value of stocks/bonds in the portfolio to display the 30 year retirement investment potential for the stock/bond portion of the portfolio.
 
-![](screen_caps/step_16.png)
+![](./screen_caps/step_16.PNG)
 
 Once again the program visualizes another simulation but this simulation only evaluates the investment over 10 years rather than the 30 years we had just previously seen.
 
-![](screen_caps/step_17.png)
+![](./screen_caps/step_17.PNG)
 
 The program now visualizes the 10 year Monte Carlo simulation as a histogram.
 
-![](screen_caps/step_18.png)
+![](./screen_caps/step_18.PNG)
 
 Here the summary of the 10 year Monte Carlo simulation is printed.
 
-![](screen_caps/step_19.png)
+![](./screen_caps/step_19.PNG)
 
 Once again the program utilizes the summary to multiply the 95% upper and lower CI by the total value of stocks/bonds in the portfolio to display the 10 year retirement investment potential for the stock/bond portion of the portfolio.
 
-![](screen_caps/step_20.png)
+![](./screen_caps/step_20.PNG)
 
 
 ---
